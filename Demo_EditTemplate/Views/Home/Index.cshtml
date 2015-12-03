@@ -1,0 +1,15 @@
+﻿@model Demo_EditTemplate.Models.ViewModels.CategoryViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@Html.TextBoxFor(x=> x.id) - @Html.TextBoxFor(x => x.name)
+<br />
+@*ProductList*@
+<table class="table table-hover">
+    <tr>
+        <th>ID</th>
+        <th>書名</th>
+    </tr>
+    @Html.EditorFor(x => x.productList)
+</table>
