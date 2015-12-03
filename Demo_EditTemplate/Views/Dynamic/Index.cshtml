@@ -1,0 +1,53 @@
+﻿@using Demo_EditTemplate.HtmlHelper
+@model Demo_EditTemplate.Models.ViewModels.CategoryViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(function () {
+        var newBookData = '<tr>' +
+                    '<td>' +
+                        '<input type="hidden" name="productList.Index" value="{0}" />' +
+                        '<input data-val="true" data-val-required="id 欄位是必要項。" id="productList_{0}__id" name="productList[{0}].id" type="text" value="">' +
+                    '</td>' +
+                    '<td>' +
+                        '<input id="productList_{0}__name" name="productList[{0}].name" type="text" value="">' +
+                    '</td>' +
+                 '</tr>';
+
+        $('#btnNewBook').click(function () {
+            $('#bookBody').append(
+                newBookData.replace(/\{0\}/g, guid())
+            );
+        });
+
+        function guid() {
+            function s4() {
+                return Math.floor((1 + Math.random()) * 0x10000)
+                  .toString(16)
+                  .substring(1);
+            }
+            return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+              s4() + '-' + s4() + s4() + s4();
+        }
+    })
+</script>
+
+@Html.TextBoxFor(x => x.id) - @Html.TextBoxFor(x => x.name)
+<br />
+<input type="button" class="btn btn-default" id="btnNewBook" value="新增書籍資料" />
+@*ProductList*@
+<form action="@Url.Action("Index","Dynamic")" method="post">
+    <input type="submit" value="儲存" class="btn btn-default" />
+    <table class="table table-hover">
+        <tr>
+            <th>ID</th>
+            <th>書名</th>
+        </tr>
+        <tbody id="bookBody">
+            @Html.EditorForMany(x => x.productList)
+        </tbody>
+    </table>
+</form>
