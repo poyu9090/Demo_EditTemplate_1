@@ -2,6 +2,7 @@
 using Lib.Refactor.Enums;
 using Refactor.Repository;
 using Refactor.Repository.Factorys;
+using Refactor.Service.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Refactor.Service
 {
-    public class POIService
+    public class POIService :IPOIService
     {
         public List<POI> Get(string channelID)
         {

@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IPOIService.cs" />
     <Compile Include="POIService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,56 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@3 Namespace=::)" Category="CodeSchema_Namespace" Bounds="-258.282481003543,-111.463659966171,62.5333333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="::" UseManualLocation="True" />
-    <Node Id="(@3 Namespace=Refactor.Application)" Category="CodeSchema_Namespace" Bounds="-165.74914767021,-111.463659966171,171.74,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application" UseManualLocation="True" />
-    <Node Id="(@3 Namespace=Refactor.Application.Controllers)" Category="CodeSchema_Namespace" Bounds="35.9908523297903,-111.463659966171,236.7,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Controllers" UseManualLocation="True" />
-    <Node Id="@10" Category="CodeSchema_Namespace" Bounds="79.237518996457,-331.463659966171,328.583333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Areas‎.HelpPage‎.Controllers" UseManualLocation="True" />
-    <Node Id="@11" Category="CodeSchema_Namespace" Bounds="-128.043066773284,-166.372990186482,373.256666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Areas‎.HelpPage‎.ModelDescriptions" UseManualLocation="True" />
-    <Node Id="@12" Category="CodeSchema_Namespace" Bounds="-95.7191476702097,-221.463659966171,308.496666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Areas‎.HelpPage‎.Models" UseManualLocation="True" />
-    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="-58.2795163071837,-138.754161357731,166.836666666667,25" CodeSchemaProperty_StrongName="Refactor.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="0" FilePath="$(51831605-9d87-4b38-a35d-b78e09430300.OutputPath)" Group="Collapsed" Label="Refactor.Service.dll" UseManualLocation="True" />
-    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="-128.19514870858,-193.759861364834,192.337443493333,25.0022400032889" CodeSchemaProperty_StrongName="Refactor.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="7" FilePath="$(4ee138e2-8ddf-488c-9e20-98e811b94bf2.OutputPath)" Group="Collapsed" Label="Refactor.Application.dll" UseManualLocation="True">
+    <Node Id="(@3 Namespace=::)" Category="CodeSchema_Namespace" Bounds="-121.849949881455,-135.856843760916,62.5333333333334,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="::" />
+    <Node Id="(@3 Namespace=Refactor.Application)" Category="CodeSchema_Namespace" Bounds="-29.3166165481213,-135.856843760915,171.74,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application" />
+    <Node Id="@10" Category="CodeSchema_Namespace" Bounds="215.670050118546,-355.857043760915,328.583333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Areas‎.HelpPage‎.Controllers" />
+    <Node Id="@11" Category="CodeSchema_Namespace" Bounds="8.33338345187809,-190.856943760915,373.256666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Areas‎.HelpPage‎.ModelDescriptions" />
+    <Node Id="@12" Category="CodeSchema_Namespace" Bounds="40.7133834518789,-245.857043760915,308.496666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Areas‎.HelpPage‎.Models" />
+    <Node Id="@13" Category="CodeSchema_Namespace" Bounds="172.423383451879,-135.856843760915,236.7,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Controllers" />
+    <Node Id="@14" Category="CodeSchema_Namespace" Bounds="344.137249085954,209.144056239085,216.913333333334,140.0003" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="2" Group="Expanded" Label="Refactor‎.Repository" UseManualLocation="True" />
+    <Node Id="@15" Category="CodeSchema_Namespace" Bounds="323.522655977307,154.143956239085,217.67,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Repository‎.Factorys" />
+    <Node Id="@16" Category="CodeSchema_Namespace" Bounds="322.127427801354,379.144456239085,220.336666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Repository‎.Interface" />
+    <Node Id="@17" Category="CodeSchema_Namespace" Bounds="130.445765384844,-20.8565437609154,161.473333333333,85.0002" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="Refactor‎.Service" UseManualLocation="True" />
+    <Node Id="@18" Category="CodeSchema_Class" Bounds="364.137249085954,304.144256239085,176.913333333334,25" CodeSchemaProperty_IsInternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="ASupplierRepository" />
+    <Node Id="@19" Category="CodeSchema_Class" Bounds="364.137249085954,249.144156239085,175.97,25" CodeSchemaProperty_IsInternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="BSupplierRepository" />
+    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="110.445765384844,-60.8566437609154,201.473333333333,145.0004" CodeSchemaProperty_StrongName="Refactor.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" FilePath="$(VsSolution)\Refactor.Service\bin\Debug\Refactor.Service.dll" Group="Expanded" Label="Refactor.Service.dll" UseManualLocation="True" />
+    <Node Id="@20" Category="CodeSchema_Class" Bounds="150.445765384844,19.1435562390846,121.473333333333,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="POIService" />
+    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="-141.849949881455,-395.857143760915,706.103333333334,305.0004" CodeSchemaProperty_StrongName="Refactor.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="7" FilePath="$(4ee138e2-8ddf-488c-9e20-98e811b94bf2.OutputPath)" Group="Expanded" Label="Refactor.Application.dll" UseManualLocation="True">
       <Category Ref="CodeMap_WebProject" />
       <Category Ref="FileSystem.Category.FileOfType.dll" />
     </Node>
-    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="-105.151439338683,-28.0512536819336,143.513333333333,25" CodeSchemaProperty_StrongName="Lib.Refactor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(a1c9c985-bc84-45a0-81fc-21e5450310b2.OutputPath)" Group="Collapsed" Label="Lib.Refactor.dll" UseManualLocation="True" />
-    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="-59.1206544707139,-83.0513536830536,187.573333333333,25" CodeSchemaProperty_StrongName="Refactor.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(82350c66-ca71-481e-a50f-259c6010cd7f.OutputPath)" Group="Collapsed" Label="Refactor.Repository.dll" UseManualLocation="True" />
-    <Node Id="@9" Category="CodeSchema_Namespace" Bounds="-258.282481003543,-276.463659966171,263.623333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Areas‎.HelpPage" UseManualLocation="True" />
-    <Node Id="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" Category="CodeMap_SolutionFolder" Bounds="-148.195148710635,-233.759961364834,296.64782756709,250.70880767954" Group="Expanded" Label="Refactor" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="139.500773254606,460.893371379386,143.513333333333,25" CodeSchemaProperty_StrongName="Lib.Refactor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(VsSolution)\Lib.Refactor\bin\Debug\Lib.Refactor.dll" Group="Collapsed" Label="Lib.Refactor.dll" />
+    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="302.127427801354,114.143856239085,278.923154617933,310.0007" CodeSchemaProperty_StrongName="Refactor.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" FilePath="$(VsSolution)\Refactor.Repository\bin\Debug\Refactor.Repository.dll" Group="Expanded" Label="Refactor.Repository.dll" UseManualLocation="True" />
+    <Node Id="@9" Category="CodeSchema_Namespace" Bounds="-121.849949881455,-300.857143760916,263.623333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Refactor‎.Application‎.Areas‎.HelpPage" />
+    <Node Id="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" Category="CodeMap_SolutionFolder" Bounds="-161.849949881455,-435.857243760915,762.900532300742,941.750715140302" Group="Expanded" Label="Refactor" />
   </Nodes>
   <Links>
-    <Link Source="@10" Target="@11" Category="References" Bounds="119.40567779541,-306.463653564453,124.123512268066,137.901214599609" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+    <Link Source="@10" Target="@11" Category="References" Bounds="267.278228759766,-330.857055664063,110.740417480469,138.261444091797" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@10" Target="@9" Category="CodeSchema_Calls" Bounds="-33.4777221679688,-306.463653564453,192.916000366211,28.6766967773438" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@12" Target="@11" Category="References" Bounds="58.5291862487793,-196.463653564453,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="20">
+    <Link Source="@10" Target="@9" Category="CodeSchema_Calls" Bounds="102.954963307623,-330.857043760915,192.91569149384,28.6766047043028" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@12" Target="@11" Category="References" Bounds="194.961716785212,-220.857043760915,2.27373675443232E-13,21.0001" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="20">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@2" Target="@6" Category="CodeMap_ProjectReference" Bounds="-65.3027267456055,-113.75415802002,54.7605237960815,78.749755859375" />
-    <Link Source="@2" Target="@8" Category="CodeMap_ProjectReference" Bounds="27.276769215527,-113.754161357731,3.73399820453577,21.8316283163899" />
+    <Link Source="@13" Target="@20" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@14" Target="@18" Category="Contains" FetchingParent="@14" />
+    <Link Source="@14" Target="@19" Category="Contains" FetchingParent="@14" />
+    <Link Source="@15" Target="@16" Category="CodeSchema_ReturnTypeLink" Bounds="334.003021240234,179.143951416016,60.3691711425781,197.185668945313" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@15" Target="@18" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@15" Target="@19" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@15" Target="@6" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@16" Target="@6" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@17" Target="@20" Category="Contains" FetchingParent="@17" />
+    <Link Source="@18" Target="@16" Category="Implements" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@18" Target="@6" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="10" />
+    <Link Source="@19" Target="@16" Category="Implements" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@19" Target="@6" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="10" />
+    <Link Source="@2" Target="@17" Category="Contains" FetchingParent="@2" />
+    <Link Source="@2" Target="@6" Category="CodeMap_ProjectReference" Bounds="91.6399074178964,170.075058989586,5.23791522480637,76.0213030698898" />
+    <Link Source="@2" Target="@8" Category="CodeMap_ProjectReference" Bounds="129.546987635154,170.075058989586,16.9932094264306,22.7854611913679" />
+    <Link Source="@20" Target="@15" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@20" Target="@16" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@20" Target="@6" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="30">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
     <Link Source="@4" Target="(@3 Namespace=::)" Category="Contains" FetchingParent="@4" />
     <Link Source="@4" Target="(@3 Namespace=Refactor.Application)" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="(@3 Namespace=Refactor.Application.Controllers)" Category="Contains" FetchingParent="@4" />
     <Link Source="@4" Target="@10" Category="Contains" FetchingParent="@4" />
     <Link Source="@4" Target="@11" Category="Contains" FetchingParent="@4" />
     <Link Source="@4" Target="@12" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@2" Category="CodeMap_ProjectReference" Bounds="-19.0342438573946,-168.757621361545,24.6966984113665,23.7632419433447" />
-    <Link Source="@4" Target="@6" Category="CodeMap_ProjectReference" Bounds="-68.8566131591797,-168.757614135742,22.7768363952637,133.753211975098" />
+    <Link Source="@4" Target="@13" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@2" Category="CodeMap_ProjectReference" Bounds="93.77420386401,92.2556719174244,0.130484525932317,21.0001797840469" />
+    <Link Source="@4" Target="@6" Category="CodeMap_ProjectReference" Bounds="100.311546325684,-90.8567428588867,104.760063171387,543.11238861084" />
     <Link Source="@4" Target="@9" Category="Contains" FetchingParent="@4" />
-    <Link Source="@8" Target="@6" Category="CodeMap_ProjectReference" Bounds="-10.9263742298099,-58.0513536830536,30.124054353052,24.3433278806746" />
-    <Link Source="@9" Target="@11" Category="References" Bounds="-126.470817565918,-251.463653564453,124.123511314392,82.9012145996094" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="31">
+    <Link Source="@8" Target="@14" Category="Contains" FetchingParent="@8" />
+    <Link Source="@8" Target="@15" Category="Contains" FetchingParent="@8" />
+    <Link Source="@8" Target="@16" Category="Contains" FetchingParent="@8" />
+    <Link Source="@8" Target="@6" Category="CodeMap_ProjectReference" Bounds="113.264293040563,226.875047656251,31.5570317166641,24.4831343261923" />
+    <Link Source="@9" Target="@11" Category="References" Bounds="13.2813587188721,-275.857147216797,109.363859176636,83.2615356445313" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="31">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
       <Category Ref="Implements" />
     </Link>
-    <Link Source="@9" Target="@12" Category="References" Bounds="-84.4253616333008,-251.463653564453,92.282265663147,27.4352569580078" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="25">
+    <Link Source="@9" Target="@12" Category="References" Bounds="52.0070948845244,-275.857143760916,92.2824178686244,27.4353633027899" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="25">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
     <Link Source="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" Target="@2" Category="Contains" FetchingParent="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" />
     <Link Source="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" Target="@4" Category="Contains" FetchingParent="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" />
     <Link Source="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" Target="@6" Category="Contains" FetchingParent="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" />
-    <Link Source="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" Target="@8" Category="Contains" />
+    <Link Source="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" Target="@8" Category="Contains" FetchingParent="Refactor{68BBED5A-2A53-48B5-BC22-F2FEB77E1C90}" />
   </Links>
   <Categories>
     <Category Id="CodeMap_ProjectReference" Label="專案參考" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="由下列參考" OutgoingActionLabel="參考" />
@@ -58,8 +88,10 @@
     <Category Id="CodeMap_WebProject" Label="Web 專案" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Web 專案" />
     <Category Id="CodeSchema_Assembly" Label="組件" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="組件" />
     <Category Id="CodeSchema_Calls" Label="呼叫" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="召集者" OutgoingActionLabel="呼叫" />
+    <Category Id="CodeSchema_Class" Label="類別" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="類別" />
     <Category Id="CodeSchema_Namespace" Label="命名空間" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="命名空間" />
     <Category Id="CodeSchema_ReturnTypeLink" Label="傳回" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="傳回類型" OutgoingActionLabel="傳回類型" />
+    <Category Id="CodeSchema_Type" Label="類型" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="類型" />
     <Category Id="Contains" Label="包含" Description="連結的來源是否包含目標物件" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="由下列包含" IsContainment="True" OutgoingActionLabel="包含" />
     <Category Id="File" Label="檔案" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="檔案" />
     <Category Id="FileSystem.Category.FileOfType.dll" BasedOn="CodeSchema_Assembly" CanBeDataDriven="True" IsProviderRoot="False" />
@@ -70,6 +102,8 @@
     <Property Id="Bounds" DataType="System.Windows.Rect" />
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="為外部" Description="表示方法為「內部」的旗標" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="為公用" Description="表示範圍為「公用」的旗標" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
     <Property Id="DataVirtualized" Label="虛擬化資料" Description="如果為 true，就表示圖形可以包含代表虛擬化節點/連結 (亦即，實際上並未在圖形中建立) 之資料的節點和連結。" DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
@@ -103,20 +137,29 @@
   <QualifiedNames>
     <Name Id="Assembly" Label="組件" ValueType="Uri" />
     <Name Id="Namespace" Label="命名空間" ValueType="System.String" />
+    <Name Id="Type" Label="類型" ValueType="System.Object" />
   </QualifiedNames>
   <IdentifierAliases>
-    <Alias n="1" Uri="Assembly=$(51831605-9d87-4b38-a35d-b78e09430300.OutputPathUri)" />
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/Refactor.Service/bin/Debug/Refactor.Service.dll" />
     <Alias n="2" Id="(@1)" />
     <Alias n="3" Uri="Assembly=$(4ee138e2-8ddf-488c-9e20-98e811b94bf2.OutputPathUri)" />
     <Alias n="4" Id="(@3)" />
-    <Alias n="5" Uri="Assembly=$(a1c9c985-bc84-45a0-81fc-21e5450310b2.OutputPathUri)" />
+    <Alias n="5" Uri="Assembly=$(VsSolutionUri)/Lib.Refactor/bin/Debug/Lib.Refactor.dll" />
     <Alias n="6" Id="(@5)" />
-    <Alias n="7" Uri="Assembly=$(82350c66-ca71-481e-a50f-259c6010cd7f.OutputPathUri)" />
+    <Alias n="7" Uri="Assembly=$(VsSolutionUri)/Refactor.Repository/bin/Debug/Refactor.Repository.dll" />
     <Alias n="8" Id="(@7)" />
     <Alias n="9" Id="(@3 Namespace=Refactor.Application.Areas.HelpPage)" />
     <Alias n="10" Id="(@3 Namespace=Refactor.Application.Areas.HelpPage.Controllers)" />
     <Alias n="11" Id="(@3 Namespace=Refactor.Application.Areas.HelpPage.ModelDescriptions)" />
     <Alias n="12" Id="(@3 Namespace=Refactor.Application.Areas.HelpPage.Models)" />
+    <Alias n="13" Id="(@3 Namespace=Refactor.Application.Controllers)" />
+    <Alias n="14" Id="(@7 Namespace=Refactor.Repository)" />
+    <Alias n="15" Id="(@7 Namespace=Refactor.Repository.Factorys)" />
+    <Alias n="16" Id="(@7 Namespace=Refactor.Repository.Interface)" />
+    <Alias n="17" Id="(@1 Namespace=Refactor.Service)" />
+    <Alias n="18" Id="(@7 Namespace=Refactor.Repository Type=ASupplierRepository)" />
+    <Alias n="19" Id="(@7 Namespace=Refactor.Repository Type=BSupplierRepository)" />
+    <Alias n="20" Id="(@1 Namespace=Refactor.Service Type=POIService)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="結果" ValueLabel="是">
@@ -338,11 +381,10 @@
   <Paths>
     <Path Id="4ee138e2-8ddf-488c-9e20-98e811b94bf2.OutputPath" Value="F:\testProject\Demo_EditTemplate\Refactor.Application\bin\Refactor.Application.dll" />
     <Path Id="4ee138e2-8ddf-488c-9e20-98e811b94bf2.OutputPathUri" Value="file:///F:/testProject/Demo_EditTemplate/Refactor.Application/bin/Refactor.Application.dll" />
-    <Path Id="51831605-9d87-4b38-a35d-b78e09430300.OutputPath" Value="F:\testProject\Demo_EditTemplate\Refactor.Service\bin\Debug\Refactor.Service.dll" />
-    <Path Id="51831605-9d87-4b38-a35d-b78e09430300.OutputPathUri" Value="file:///F:/testProject/Demo_EditTemplate/Refactor.Service/bin/Debug/Refactor.Service.dll" />
-    <Path Id="82350c66-ca71-481e-a50f-259c6010cd7f.OutputPath" Value="F:\testProject\Demo_EditTemplate\Refactor.Repository\bin\Debug\Refactor.Repository.dll" />
-    <Path Id="82350c66-ca71-481e-a50f-259c6010cd7f.OutputPathUri" Value="file:///F:/testProject/Demo_EditTemplate/Refactor.Repository/bin/Debug/Refactor.Repository.dll" />
-    <Path Id="a1c9c985-bc84-45a0-81fc-21e5450310b2.OutputPath" Value="F:\testProject\Demo_EditTemplate\Lib.Refactor\bin\Debug\Lib.Refactor.dll" />
-    <Path Id="a1c9c985-bc84-45a0-81fc-21e5450310b2.OutputPathUri" Value="file:///F:/testProject/Demo_EditTemplate/Lib.Refactor/bin/Debug/Lib.Refactor.dll" />
+    <Path Id="51831605-9d87-4b38-a35d-b78e09430300.OutputPath" Value="F:\testProject\Demo_EditTemplate\Refactor.Service\bin\Release\Refactor.Service.dll" />
+    <Path Id="82350c66-ca71-481e-a50f-259c6010cd7f.OutputPath" Value="F:\testProject\Demo_EditTemplate\Refactor.Repository\bin\Release\Refactor.Repository.dll" />
+    <Path Id="a1c9c985-bc84-45a0-81fc-21e5450310b2.OutputPath" Value="F:\testProject\Demo_EditTemplate\Lib.Refactor\bin\Release\Lib.Refactor.dll" />
+    <Path Id="VsSolution" Value="F:\testProject\Demo_EditTemplate" />
+    <Path Id="VsSolutionUri" Value="file:///F:/testProject/Demo_EditTemplate" />
   </Paths>
 </DirectedGraph>
