@@ -13,11 +13,19 @@ namespace Refactor.Service
 {
     public class POIService :IPOIService
     {
+        IChannelService _ChannelService;
+        public POIService(IChannelService channelService)
+        {
+            //DI
+            _ChannelService = channelService;
+        }
+
         public List<POI> Get(string channelID)
         {
             var Result = new List<POI>();
 
-            var channel = GetChannel(channelID);
+            //面對抽象
+            var channel = _ChannelService.Get(channelID);
 
             //逐一搜尋頻道底下的各類別
             foreach (var category in channel.Categorys)
@@ -33,44 +41,6 @@ namespace Refactor.Service
 
             //並接總合的結果回傳
             return Result;
-        }
-
-
-        /// <summary>
-        /// 模擬頻道類別對應表
-        /// </summary>
-        /// <param name="channelID">The channel identifier.</param>
-        /// <returns>Channel.</returns>
-        Channel GetChannel(string channelID)
-        {
-            if (channelID == "1")
-            {
-                return new Channel
-                {
-                    ID = "1",
-                    Categorys = new List<Channel.Category>
-                    {
-                        new Channel.Category
-                        {
-                            Name = "交通",
-                            Supplier =new List<SupplierEnum> { SupplierEnum.A }
-                        }
-                    }
-                };
-            }
-
-            return new Channel
-            {
-                ID = channelID,
-                Categorys = new List<Channel.Category>
-                {
-                    new Channel.Category
-                    {
-                        Name = "交通",
-                        Supplier = new List<SupplierEnum> { SupplierEnum.A , SupplierEnum.B }
-                    }
-                }
-            };
         }
     }
 }
